@@ -7,7 +7,7 @@ exports.config = {
   // The timeout for each script run on the browser. This should be longer
   // than the maximum time your application needs to stabilize between tasks.
   seleniumServerJar: '/var/lib/jenkins/npm_global/lib/node_modules/protractor/selenium/selenium-server-standalone-2.45.0.jar',
-  seleniumPort: 4444,
+  //seleniumPort: 4444,
   seleniumArgs: ['-browserTimeout=60'],
 
   allScriptsTimeout: 110000,
