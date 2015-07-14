@@ -32,7 +32,7 @@ class WorkshopTest extends Simulation{
     group("Test") {
       exec(http("Send Request")
         .get("/")
-        .check(status.is(200))
+        .check(status.is(304))
       )
     }
   }.inject(constantUsersPerSec(rampUpUsers) during(rampUpDuration seconds))
