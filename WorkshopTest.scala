@@ -11,7 +11,7 @@ import io.gatling.core.config.GatlingConfiguration.configuration
 
 class WorkshopTest extends Simulation{
   val prop = new Properties()
-  prop.load(new FileInputStream(configuration.core.directory.data + "/workshop.properties"))
+  prop.load(new FileInputStream(sys.env("GATLING_HOME") + "/" + configuration.core.directory.data + "/workshop.properties"))
   val throughput = prop.getProperty("throughput").toInt
   val duration = prop.getProperty("duration").toInt
   val rampUpUsers = prop.getProperty("rampUpUsers").toInt
