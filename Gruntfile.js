@@ -431,10 +431,10 @@ module.exports = function (grunt) {
       options: {
         configFile: 'protractor.conf.js'
       },
-      chrome: {
+      phantomjs: {
         options: {
           args: {
-            browser: 'chrome'
+            browser: 'phantomjs'
           }
         }
       }
