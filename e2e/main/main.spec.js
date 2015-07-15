@@ -1,9 +1,13 @@
 'use strict';
+var $p;
 
 describe('Main View', function() {
   var page;
 
   beforeEach(function() {
+    $p = protractor.getInstance();
+    browser.ignoreSynchronization = true;
+    browser.driver.manage().window().setSize(1280, 1024);
     browser.get('/');
     page = require('./main.po');
   });
