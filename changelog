@@ -1,0 +1,13 @@
+************************
+Raxio Changelog
+Date: 2015-07-21 02:51:22 UTC
+Previous-Version: master
+Current-Version: k1-20150721-grefs-changes-12-12-1-6
+************************
+Commit: 7a3e655d4f2c0e1897cd861791f7ace5f8885afa
+Author: dimtruc
+Date: Mon Jul 20 21:24:54 2015 -0500
+Message: Update
+Change-Id: Ic38a17fc3261491c0e4c7da777abd8c3ce1d754c
+Gerrit-Review: https://review.openstack.org/#q,Ic38a17fc3261491c0e4c7da777abd8c3ce1d754c,n,z
+
