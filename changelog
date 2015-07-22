@@ -1,0 +1,18 @@
+************************
+Raxio Changelog
+Date: 2015-07-21 01:49:13 UTC
+Previous-Version: master
+Current-Version: k1-20150721-gupstream-1
+************************
+Commit: 2f57809eedc35192091783885c16b4b42c620fcf
+Author: jenkins
+Date: Tue Jul 21 01:48:47 2015 +0000
+Message: Add release changelog for upstream
+
+Commit: 9185f657500660254984cbd24655c42fec65335a
+Author: dimtruc
+Date: Sun Jul 19 23:13:38 2015 -0500
+Message: Revert title changes
+Change-Id: I8e4f7ac941195f4a0c8bfb0b943c1a54aa9d79fd
+Gerrit-Review: https://review.openstack.org/#q,I8e4f7ac941195f4a0c8bfb0b943c1a54aa9d79fd,n,z
+
